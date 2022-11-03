@@ -98,6 +98,10 @@ h1 {
     margin-bottom: 3rem;
 }
 
+.guess:focus {
+    outline: none;
+}
+
 .btn {
     border: none;
     background-color: #eee;
@@ -114,7 +118,7 @@ h1 {
 
 .message {
     margin-bottom: 8rem;
-    height: 3rem;
+    /* background-color: aqua; */
 }
 
 .label-score {
